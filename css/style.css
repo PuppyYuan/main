@@ -1,0 +1,43 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {padding: 0; margin: 0;}
+a{text-decoration:none;}
+table {border-spacing: 0;}
+fieldset,img {border: 0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-weight: normal;font-style: normal;}
+ol,ul {list-style: none;margin:0;padding:0;}
+caption,th {text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 100%;margin:0;padding:0;color:#444;}
+abbr,acronym { border: 0;}
+
+.clearfix{*height:1%;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+
+body{font-family:"微软雅黑","Hiragino Sans GB","Century Gothic",system, Arial, Verdana, Tahoma;}
+header{width: 1000px; margin: 0 auto;height: 100px;border-bottom: 1px solid #ccc;}
+nav{width: 1000px; margin: 0 auto; height: 60px; border-bottom: 1px solid #ccc;}
+nav li{float: left;width: 100px;height: 40px;margin: 10px 10px 10px 0;text-align: center;}
+nav li a{display: block;color:#666;font-weight: bold;line-height: 40px;}
+nav li.active a,
+nav li:hover a{background: #777; color: #fff;border-radius: 10px;}
+.container{width: 1000px;margin: 0 auto; min-height: 800px;border-bottom: 1px solid #ccc;box-sizing: border-box; padding: 15px 0;}
+.container-l{width: 750px; float:left; min-height: 800px;}
+.post_item{width: 100%; height: 200px; box-sizing: border-box; padding: 15px 0;}
+.post_item h3{padding-bottom: 10px;}
+.post_item h3 a{font-weight: bold;color: #333;}
+.post_item h3 a:hover{text-decoration: underline;}
+.post_item .post_cont{height: 100px; width: 100%; text-indent: 2em;font-size:14px;line-height: 25px;overflow:hidden;text-overflow:ellipsis;}
+.post_item .post_time{height: 25px;width: 100%;font-size:14px;line-height: 25px;padding-top: 10px;}
+.container-r{width: 230px; margin-left: 770px; min-height: 800px;}
+.container-r img{width: 100%;border-radius: 10px;}
+footer{width: 1000px; margin: 0 auto; height: 60px;line-height: 60px;font-size:14px;color: #666; text-align: center;}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
